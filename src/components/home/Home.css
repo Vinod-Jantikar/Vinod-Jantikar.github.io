@@ -1,0 +1,7 @@
+.about_section {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
