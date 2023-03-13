@@ -1,4 +1,4 @@
-import { Box, Stack } from "@mui/material";
+import { Box, Stack, Typography } from "@mui/material";
 import About from "../about/About";
 import Contact from "../contact/Contact";
 import Intro from "../intro/Intro";
@@ -6,6 +6,7 @@ import Navbar from "../navbar/Navbar";
 import Profile from "../profilePic/Profile";
 import Projects from "../projects/Projects";
 import Skills from "../skills/Skills";
+import GitHubCalendar from 'react-github-calendar'
 import "./Home.css";
 
 const Home = () => {
@@ -30,9 +31,22 @@ const Home = () => {
       <Box>
         <Projects />
       </Box>
+      <Box marginTop="20px">
+        <Typography textAlign="center" marginBottom="40px" sx={{
+          fontSize: {
+            lg: 30,
+            md: 30,
+            sm: 25,
+            xs: 15,
+          }}}>
+          GitHub Stats
+        </Typography>
+    <GitHubCalendar username="Vinod-Jantikar" style={{ margin: "auto"}}/>
+      </Box>
       <Box>
         <Contact />
       </Box>
+
     </Box>
   );
 };

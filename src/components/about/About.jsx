@@ -3,7 +3,7 @@ import { Box, Stack, Typography } from "@mui/material";
 
 const About = () => {
   return (
-    <Box>
+    <Box id="about">
       <Typography  textAlign="center" marginBottom="40px" sx={{
           fontSize: {
             lg: 30,

@@ -1,6 +1,7 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
+import { AiOutlineCloudDownload } from "react-icons/ai";
 
 const Intro = () => {
   return (
@@ -50,10 +51,19 @@ const Intro = () => {
         }}
       >
         <Link
-          to="https://drive.google.com/file/d/17NkN2FnWouoINHC7l4_C5hHvqWO8PU1B/view?usp=share_link"
+          to="./files/Jantikar-Vinod-Resume.pdf"
           target="_blank"
-          style={{ textDecoration: "none", color: "rgb(204, 214, 246)" }}
+          download
+          style={{
+            textDecoration: "none",
+            color: "rgb(204, 214, 246)",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "5px",
+          }}
         >
+          <AiOutlineCloudDownload size={30} />
           Resume
         </Link>
       </Button>

@@ -5,7 +5,7 @@ import { Box, Grid, Typography } from "@mui/material";
 
 const Projects = () => {
   return (
-    <Box  style={{ marginTop: "80px",  }}>
+    <Box id="projects" style={{ marginTop: "80px",  }}>
       <Typography  textAlign="center" sx={{
           fontSize: {
             lg: 30,

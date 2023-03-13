@@ -11,7 +11,7 @@ import { Box, Stack, Typography } from "@mui/material";
 
 const Contact = () => {
   return (
-    <Box marginTop="80px">
+    <Box id="contact" marginTop="80px">
       <Typography
         variant="h5"
         style={{ textAlign: "center", margin: "40px 0" }}

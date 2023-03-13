@@ -32,6 +32,7 @@ const SkillBox = styled(Box)({
 const Skills = () => {
   return (
     <Box
+    id="skills"
       textAlign="center"
       sx={{
         width: {
