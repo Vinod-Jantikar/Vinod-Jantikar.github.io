@@ -48,9 +48,9 @@ const Home = () => {
         </Typography>
         <GitHubCalendar username="Vinod-Jantikar" style={{ margin: "auto" }} />
       </Box>
-      <Box sx={{width: "50%" , margin: " 20px auto"}}>
+      <Box sx={{width: "50%" , margin: " 30px auto"}}>
         <img
-          src="https://github-stats-alpha.vercel.app/api?username=Vinod-Jantikar&cc=252734&tc=fff&ic=fff&bc=2a2c39"
+          src="https://github-stats-alpha.vercel.app/api?username=Vinod-Jantikar&cc=000&tc=ccd6f6&bc=fc1056"
           alt="git stats"
           width="100%"
         />
