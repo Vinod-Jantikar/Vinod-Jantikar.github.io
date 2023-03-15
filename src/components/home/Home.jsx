@@ -6,7 +6,7 @@ import Navbar from "../navbar/Navbar";
 import Profile from "../profilePic/Profile";
 import Projects from "../projects/Projects";
 import Skills from "../skills/Skills";
-import GitHubCalendar from 'react-github-calendar'
+import GitHubCalendar from "react-github-calendar";
 import "./Home.css";
 
 const Home = () => {
@@ -32,21 +32,32 @@ const Home = () => {
         <Projects />
       </Box>
       <Box marginTop="20px">
-        <Typography textAlign="center" marginBottom="40px" sx={{
-          fontSize: {
-            lg: 30,
-            md: 30,
-            sm: 25,
-            xs: 15,
-          }}}>
+        <Typography
+          textAlign="center"
+          marginBottom="40px"
+          sx={{
+            fontSize: {
+              lg: 30,
+              md: 30,
+              sm: 25,
+              xs: 15,
+            },
+          }}
+        >
           GitHub Stats
         </Typography>
-    <GitHubCalendar username="Vinod-Jantikar" style={{ margin: "auto"}}/>
+        <GitHubCalendar username="Vinod-Jantikar" style={{ margin: "auto" }} />
+      </Box>
+      <Box sx={{width: "50%" , margin: " 20px auto"}}>
+        <img
+          src="https://github-stats-alpha.vercel.app/api?username=Vinod-Jantikar&cc=252734&tc=fff&ic=fff&bc=2a2c39"
+          alt="git stats"
+          width="100%"
+        />
       </Box>
       <Box>
         <Contact />
       </Box>
-
     </Box>
   );
 };
