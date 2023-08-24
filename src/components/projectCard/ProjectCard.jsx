@@ -19,6 +19,7 @@ const ProjectCard = ({ project }) => {
         style={{ width: "100%", height: "250px" }}
       />
       <Typography>{project.summary}</Typography>
+      <Typography variant="body1" sx={{marginTop: "10px"}}>Tech Stacks:</Typography> 
       {project.techStacks.map((tech) => (
         <span style={{ padding: "2px" }}> {tech},</span>
       ))}

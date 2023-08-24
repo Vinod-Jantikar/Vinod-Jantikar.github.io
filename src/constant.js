@@ -1,5 +1,42 @@
 export const projectData = [
   {
+    projectName: "f-Click-e-commerce",
+    imgUrl: "./assets/f-click.PNG",
+    summary:
+      "It is an e-commerce website that sells clothes of men, women and kids. Features like filtering and sorting products, cart manipulation, search functionality, order tracking, wish list product.",
+    techStacks: [
+      "ReactJS",
+      "Redux",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    githubLink: "https://github.com/Vinod-Jantikar/f-Click-e-commerce-platform",
+    deployedLink: "https://fashion-click.vercel.app/",
+  },
+  {
+    projectName: "Admin-Dashboard",
+    imgUrl: "./assets/admin-dashboard.PNG",
+    summary:
+      "This is a Full stack Admin Dashboard website in which I have added charts, pie chart, line chart and can see the transactions, products and etc",
+    techStacks: [
+      "ReactJS",
+      "Redux Toolkit",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Material UI",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    githubLink: "https://github.com/Vinod-Jantikar/Admin-Dashboard",
+    deployedLink: "https://admin-dashboard-ur1b.onrender.com/",
+  },
+  {
     projectName: "Aha Clone",
     imgUrl: "./assets/aha-clone.png",
     summary:
