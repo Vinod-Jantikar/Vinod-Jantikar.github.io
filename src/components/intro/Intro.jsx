@@ -48,6 +48,7 @@ const Intro = () => {
           padding: "10px 20px",
           borderColor: "rgb(252, 16, 86)",
           fontSize: "15px",
+          marginTop: "20px"
         }}
       >
         <Link

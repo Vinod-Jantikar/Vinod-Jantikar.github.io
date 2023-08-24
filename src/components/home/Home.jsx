@@ -11,7 +11,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <Box>
+    <Box id="home">
       <Navbar />
       <Stack
         direction="row"

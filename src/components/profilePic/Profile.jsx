@@ -5,25 +5,26 @@ const Profile = () => {
     <Box
       sx={{
         width: {
-          lg: "250px",
+          lg: "400px",
           md: "230px",
           sm: "180px",
           xs: "150px"
         },
         height: {
-          lg: "250px",
+          lg: "400px",
           md: "230px",
           sm: "180px",
           xs: "150px"
         },
         border: "1px solid white",
         borderRadius: "50%",
+        background: 'white'
       }}
     >
       <img
         src="./assets/profile.jpg"
         alt="profilepic"
-        style={{ width: "100%", height: "100%", borderRadius: "50%",  }}
+        style={{ width: "100%", height: "100%", borderRadius: "50%", objectFit: "contain",  }}
       />
     </Box>
   );

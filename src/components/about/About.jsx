@@ -19,7 +19,7 @@ const About = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <Box width={{xs: "90%", sm: "90%", md: "45%", lg: "45%"}}>
+        <Box width={{xs: "90%", sm: "90%", md: "45%", lg: "40%"}}>
           <img src="./assets/icon-1.png" alt="icon" style={{ width: "100%" }} />
         </Box>
         <Box width={{xs: "90%", sm: "90%", md: "45%", lg: "45%"}}>

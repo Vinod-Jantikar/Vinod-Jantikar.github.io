@@ -28,7 +28,7 @@ const Navbar = () => {
       <Toolbar>
         <Box sx={{ flexGrow: 1, marginLeft: "80px" }}>
           <Typography variant="h6" color="rgb(204, 214, 246)">
-            <i > Jantikar Vinod </i>
+           Jantikar Vinod 
           </Typography>
         </Box>
         <IconButton sx={{display: {xs: "flex", sm: "flex",md: "none", lg: "none"}}} onClick={handleDrawer}>

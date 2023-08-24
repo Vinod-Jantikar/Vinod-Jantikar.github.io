@@ -5,7 +5,12 @@ import { Link } from "react-router-dom";
 const MenuNav = ({ sx }) => {
   return (
     <Box sx={{ ...sx }}>
-      <Button sx={{ fontSize: 15, color: "rgb(204, 214, 246)", p: "20px" }}>Home</Button>
+      <Button sx={{ fontSize: 15, color: "rgb(204, 214, 246)", p: "20px" }}>
+        
+        <a href="#home" style={{ textDecoration: "none", color: "rgb(204, 214, 246)"}}>
+          Home
+        </a>
+        </Button>
       <Button sx={{ fontSize: 15, color: "rgb(204, 214, 246)",p: "20px" }}>
         {" "}
         <a
@@ -45,7 +50,7 @@ const MenuNav = ({ sx }) => {
       </Button>
       <Button sx={{ fontSize: 15, color: "rgb(204, 214, 246)", p: "20px" }}>
         <Link
-          to="https://drive.google.com/file/d/1H8wexly4gv_YO9FHC6PDyLGY1L_IrOaI/view?usp=share_link"
+          to="https://drive.google.com/file/d/1NPYhWL2GzZnlaPPyFR_UzxmcAFvJVUaX/view?usp=sharing"
           target="_blank"
           style={{ textDecoration: "none", color: "rgb(204, 214, 246)" }}
         >
