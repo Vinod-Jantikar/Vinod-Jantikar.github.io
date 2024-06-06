@@ -22,7 +22,7 @@ const Profile = () => {
       }}
     >
       <img
-        src="./assets/profile.JPG"
+        src="./assets/profile-pic.gif"
         alt="profilepic"
         style={{ width: "100%", height: "100%", borderRadius: "50%", objectFit: "contain",  }}
       />
