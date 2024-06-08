@@ -30,15 +30,7 @@ const Intro = () => {
       >
         I'm{' '}
         <span className="name">
-          {"Jantikar Vinod".split('').map((char, index) => (
-            <span
-              key={index}
-              className="char"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
-              {char}
-            </span>
-          ))}
+          Vinod Jantikar 
         </span>
       </Typography>
       <Typography

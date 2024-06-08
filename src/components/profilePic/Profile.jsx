@@ -11,20 +11,17 @@ const Profile = () => {
           xs: "150px"
         },
         height: {
-          lg: "400px",
+          lg: "350px",
           md: "230px",
           sm: "180px",
           xs: "150px"
         },
-        border: "1px solid white",
-        borderRadius: "50%",
-        background: 'white'
       }}
     >
       <img
-        src="./assets/profile-pic.gif"
+        src="./assets/pp-no-bg.png"
         alt="profilepic"
-        style={{ width: "100%", height: "100%", borderRadius: "50%", objectFit: "contain",  }}
+        style={{ width: "100%", height: "100%",borderRadius: '50%', objectFit: "contain",  }}
       />
     </Box>
   );

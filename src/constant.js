@@ -1,5 +1,22 @@
 export const projectData = [
   {
+    projectName: "UPLIFE - Best gummies for sleep.",
+    imgUrl: "./assets/uplife.png",
+    summary:
+      "UpLife offers a range of gummies designed to improve sleep, targeting various sleep issues. Their website highlights different products, including sleep gummies that aim to enhance relaxation and promote restful sleep. UpLife emphasizes the use of natural ingredients and the benefits of their formulations in aiding better sleep quality.",
+    techStacks: [
+      "React",
+      "Redux toolkit",
+      "Bootstrap",
+      "Axios",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    // githubLink: "https://github.com/Vinod-Jantikar/f-Click-e-commerce-platform",
+    deployedLink: "https://theuplife.in/",
+  },
+  {
     projectName: "f-Click-e-commerce",
     imgUrl: "./assets/f-click.PNG",
     summary:
