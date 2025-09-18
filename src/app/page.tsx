@@ -1,6 +1,7 @@
 import AboutMe from "@/components/AboutMe";
 import HeroHeading from "@/components/HeroHeading";
 import Profile3D from "@/components/Profile3D";
+import Projects from "@/components/Projects";
 import SkillsCanvas from "@/components/Skills";
 import Image from "next/image";
 
@@ -12,8 +13,9 @@ export default function Home() {
         Full Stack Web Developer | Specialized in MERN & Modern Web Stacks
       </p>
       <Profile3D />
-      <AboutMe/>
-      <SkillsCanvas/>
+      <AboutMe />
+      <SkillsCanvas />
+      <Projects />
     </main>
   );
 }
