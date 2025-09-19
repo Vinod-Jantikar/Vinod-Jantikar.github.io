@@ -1,4 +1,5 @@
 import AboutMe from "@/components/AboutMe";
+import Contact from "@/components/Contact";
 import HeroHeading from "@/components/HeroHeading";
 import Profile3D from "@/components/Profile3D";
 import Projects from "@/components/Projects";
@@ -15,6 +16,7 @@ export default function Home() {
       <AboutMe />
       <SkillsCanvas />
       <Projects />
+      <Contact/>
     </main>
   );
 }

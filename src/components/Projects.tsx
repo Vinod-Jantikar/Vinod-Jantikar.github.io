@@ -3,15 +3,22 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import {
-    Float,
     OrbitControls,
     Stars,
-    Html,
-    Effects,
 } from "@react-three/drei";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { projectData } from "@/data/ProjectData";
 import { motion } from "framer-motion";
+import Image from "next/image";
+
+type Project = {
+    projectName: string;
+    summary: string;
+    imgUrl: string;
+    techStacks: string[];
+    githubLink?: string;
+    deployedLink?: string;
+};
 
 const ProjectPreview3D = () => {
     return (
@@ -51,7 +58,7 @@ const ProjectPreview3D = () => {
     );
 };
 
-const ProjectCard = ({ project }: { project: any }) => {
+const ProjectCard = ({ project }: { project: Project }) => {
     return (
         <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -68,10 +75,11 @@ const ProjectCard = ({ project }: { project: any }) => {
                 <ProjectPreview3D />
 
                 {/* Overlay Project Image */}
-                <img
+                <Image
                     src={project.imgUrl}
                     alt={project.projectName}
-                    className="absolute inset-0 w-full h-full object-cover opacity-90 mix-blend-overlay rounded-t-2xl"
+                    fill
+                    className="object-cover opacity-90 mix-blend-overlay rounded-t-2xl"
                 />
             </div>
 

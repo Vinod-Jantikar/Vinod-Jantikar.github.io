@@ -12,13 +12,14 @@ const Navbar = () => {
                 <div className="flex justify-between h-16 items-center">
                     {/* Logo / Name */}
                     <Link href="/" className="text-2xl font-bold text-sky-400">
-                        MyPortfolio
+                        Vinod Jantikar
                     </Link>
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex space-x-6 text-slate-50">
                         <Link href="#about" className="hover:text-sky-400 transition">About</Link>
                         <Link href="#projects" className="hover:text-sky-400 transition">Projects</Link>
+                        <Link href="#skills" className="hover:text-sky-400 transition">Skills</Link>
                         <Link href="#skills" className="hover:text-sky-400 transition">Skills</Link>
                         <Link href="#contact" className="hover:text-sky-400 transition">Contact</Link>
                     </div>
