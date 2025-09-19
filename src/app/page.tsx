@@ -3,7 +3,6 @@ import HeroHeading from "@/components/HeroHeading";
 import Profile3D from "@/components/Profile3D";
 import Projects from "@/components/Projects";
 import SkillsCanvas from "@/components/Skills";
-import Image from "next/image";
 
 export default function Home() {
   return (
