@@ -18,9 +18,8 @@ const Navbar = () => {
                     {/* Desktop Menu */}
                     <div className="hidden md:flex space-x-6 text-slate-50">
                         <Link href="#about" className="hover:text-sky-400 transition">About</Link>
-                        <Link href="#projects" className="hover:text-sky-400 transition">Projects</Link>
                         <Link href="#skills" className="hover:text-sky-400 transition">Skills</Link>
-                        <Link href="#skills" className="hover:text-sky-400 transition">Skills</Link>
+                        <Link href="#skills" className="hover:text-sky-400 transition">Projects</Link>
                         <Link href="#contact" className="hover:text-sky-400 transition">Contact</Link>
                     </div>
 
@@ -40,8 +39,8 @@ const Navbar = () => {
             {isOpen && (
                 <div className="md:hidden bg-slate-800 px-4 pb-4 space-y-2 shadow-md text-slate-50">
                     <Link href="#about" className="block hover:text-sky-400">About</Link>
-                    <Link href="#projects" className="block hover:text-sky-400">Projects</Link>
                     <Link href="#skills" className="block hover:text-sky-400">Skills</Link>
+                    <Link href="#projects" className="block hover:text-sky-400">Projects</Link>
                     <Link href="#contact" className="block hover:text-sky-400">Contact</Link>
                 </div>
             )}
